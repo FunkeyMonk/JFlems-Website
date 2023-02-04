@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About the user</title>
+    <style>
+      body {
+        background-color: lightgray;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>About the user</h1>
+
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" />
+      <br /><br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" />
+
+      <p>Select a show:</p>
+
+      <input type="radio" name="show" value="Mob Psycho 100" id="option1" />
+      <label for="option1">Mob Psycho 100</label>
+      <input type="radio" name="show" value="Chainsaw Man" id="option2" />
+      <label for="option2">Chainsaw Man</label>
+      <input type="radio" name="show" value="Vinland Saga" id="option3" />
+      <label for="option3">Vinland Saga</label>
+
+      <br /><br />
+
+      <label for="question">Choose a game:</label>
+      <select name="question" id="question">
+        <option value="q1">None</option>
+        <option value="q2">Dark Souls Remastered</option>
+        <option value="q3">Dark Souls 2: Scholar of the First Sin</option>
+        <option value="q4">Dark Souls 3</option>
+        <option value="q5">Sekiro: Shadows Die Twice</option>
+        <option value="q6">Bloodborne</option>
+        <option value="q7">Elden Ring</option>
+      </select>
+
+      <br /><br />
+
+      <label for="bio">Your Bio:</label><br />
+      <textarea
+        name="bio"
+        id="bio"
+        cols="30"
+        rows="10"
+        placeholder="about you..."
+      ></textarea>
+
+      <br /><br />
+      <input type="submit" value="Submit to the web page owner" />
+    </form>
+    <br />
+    <a href="/JFlem's Website/index.html">Home Page</a>
+  </body>
+</html>
